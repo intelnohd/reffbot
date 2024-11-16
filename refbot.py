@@ -7,7 +7,7 @@ from database import init_db, add_user, get_user, update_user, get_top_users
 init_db()
 
 # Замените на фактический токен
-TOKEN = '7331297888:AAG4p0JkCQGhDtnPBdsdCOFzsM_ku5YL8Nc'
+TOKEN = '7769368074:AAEKrvcUcSJHFLlVnEk6jHsfrXnOVu_8gZg'
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -43,7 +43,7 @@ MIN_WITHDRAW_AMOUNT = 10000  # Минимальная сумма вывода в
 INVITE_BONUS = 5000  # Измените на нужную сумму
 
 # Telegram ID администратора, куда будет отправляться заявка
-ADMIN_ID = 6511425725  # Замените на ID вашего Telegram аккаунта
+ADMIN_ID = 7769368074  # Замените на ID вашего Telegram аккаунта
 
 # Список обязательных каналов
 REQUIRED_CHANNELS = [
