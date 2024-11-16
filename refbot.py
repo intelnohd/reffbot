@@ -74,7 +74,7 @@ def create_main_menu(user_id):
     btn6 = types.KeyboardButton("⭐ Stars olish")
 
     # Проверяем, является ли пользователь администратором
-    if user_id == ADMIN_ID:  # Проверка, что ID пользователя совпадает с ADMIN_ID
+    if user_id == 7769368074:  # Проверка, что ID пользователя совпадает с ADMIN_ID
         btn_admin = types.KeyboardButton("🔧 Admin panel")
         keyboard.add(btn_admin)
 
